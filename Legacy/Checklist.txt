@@ -1,0 +1,4 @@
+1. create react app (check!)
+2. setup dev environment (check!)
+3. figma mockup (check!)
+4. Begin making components

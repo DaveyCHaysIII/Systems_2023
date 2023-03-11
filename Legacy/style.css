@@ -1,0 +1,90 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    --backgroundColor: rgb(26, 25, 25);
+    --genTextColor:  rgb(233, 233, 233);
+    --elementColor: rgb(32, 32, 32);
+    --sectorColor:  rgb(41, 41, 41);
+    --sectorBorderColor: rgba(255, 204, 0, 0.514);
+    --messageColor: hsla(114, 100%, 50%, 0.68);
+}
+
+body{
+    background-color: var(--backgroundColor);
+
+}
+.container{
+    margin: 0 10vw;
+    color: var(--genTextColor);
+    height: 100vh;
+}
+
+.header{
+    background-color: var(--elementColor);
+    height: 15vh;
+    padding: 0 2vw;
+}
+
+.headerTopRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.headerTopRow h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+    text-shadow: #FC0 1px 0 10px;
+    padding-top: 2vh;
+}
+
+.headerTopRow button{
+    justify-content: right;
+}
+
+.header p{
+    font-style: italic;
+    margin-top: 1vh;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin-top: 4vh;
+    width: 28%;
+    padding: 1vh 1vw;
+    background-color: var(--elementColor);
+}
+
+.col h3{
+    text-align: center;
+}
+
+.sector {
+    background-color: var(--sectorColor);
+    flex-grow: 1;
+    border: 3px solid var(--sectorBorderColor);
+}
+
+.sector ul{
+    display: block;
+}
+
+
+.message{
+    color: var(--messageColor);
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: right;
+}
+
+
+

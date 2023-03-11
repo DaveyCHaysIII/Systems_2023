@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  --main-bg: white;
+  --comp-bg-light: rgb(218, 218, 218);
+  --comp-bg-dark: rgb(148, 148, 148);
+  --text-color: black;
+  --border-color: rgb(34, 34, 34);
+  --highlight: rgb(233, 198, 0);
+}
+
+.nav{
+  background-color: var(--comp-bg-light);
+  margin: 1vh;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+}
+
+.nav .name{
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+.nav .links{
+  margin-left: auto;
+}
+
+.nav .link{
+  padding: 10px;
+  border-right: 1px solid rgb(177, 175, 175);
+  color:black;
+  text-decoration: none;
+}
+
+.nav .linkEnd {
+  padding: 10px;
+  color:black;
+  text-decoration: none;
+}
+
+.header{
+  background-color: var(--comp-bg-dark);
+  margin: 1vh;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+}
+
+
